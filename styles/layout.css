@@ -1,0 +1,59 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   justify-content: center;
+   margin: 1rem;
+}
+
+
+#layout-option-1 main {
+    width: 70%;
+}
+
+#layout-option-1 aside {
+    width: 30%;
+}
+
+
+#layout-option-1 .content {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+p{
+    margin: 1.2em;
+    line-height: 1.5em;
+}
+
+main{
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+}
+
+main > section figure{
+    float: left;
+    margin: 1rem;
+}
+
+aside{
+    padding: 2em;
+    margin: 1em 0;
+    font-family: 'Playfair Display', serif;
+}
+
+aside > h2{
+    font-size: 30px;
+    
+}
